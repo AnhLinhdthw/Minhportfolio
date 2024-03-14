@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/28e9a74c8e.js" crossorigin="anonymous"></script>
+    <style>
+        .body{
+            margin: auto;
+            padding: 0;
+            width: 500px;
+            background-color: lightblue;
+        
+            
+
+        }
+        .main{
+            
+            
+            height: 100vh;
+            font-family: 'Saira', sans-serif;
+            
+
+
+
+        }
+        .media {
+            display: inline-block;
+            padding-bottom: 20px;
+           
+        }
+
+        .object {
+            background: #E6E6FA;
+            border: 4px double green;
+            width: 150px;
+            height: 150px;
+            
+        }
+
+        img {display: block;}
+
+        .cover {object-fit: contain;}
+
+        .all{
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;  
+            flex-direction: row;
+            justify-content: center;
+        }
+        .left>.homeleft{
+            text-align: center;
+        }
+
+        .left{
+         
+            margin-left: 120px;
+            margin-bottom: 100px;
+            background: #003147;
+            padding: 40px;
+        
+            display: flex;  
+            flex-direction: column;
+            
+         
+            align-content: start;
+
+            color: #fff;
+            font-size: 20px;
+            margin-top: 20px;
+            text-transform: uppercase;
+            
+            font-weight: 600;
+           
+            line-height: 40px;
+        }
+        .left>.homeleft>.small{
+            font-weight: normal;
+            font-size: smaller;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+       
+            
+        }
+        
+        .left>.big{
+            padding-top: 20px;
+        }
+       
+        /* .left>.text-mail{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px; 
+            text-align: center;
+        } */
+        .child{
+            
+            
+            
+        }
+
+
+        .right>.frame{
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            unicode-bidi: isolate;
+          
+        }
+        .right{
+            margin-top: 16px;
+            margin-bottom: 100px;
+            width:max-content;
+            word-break: keep-all;
+            white-space: nowrap;
+            overflow: hidden;
+
+            padding: 40px;
+            background-color: #003147;
+            justify-content: space-around;
+            position: relative;
+            background: #fff;
+            line-height: 1.4em;      
+            white-space: wrap;
+            overflow: hidden;
+            align-content:center;
+        }
+
+        /* ===CODFE HEADING STYLE #13 === */
+        .title {
+            
+            position:relative; 
+            font-size:20px; 
+            font-weight:700;  
+            letter-spacing:0px; 
+            text-transform:uppercase; 
+            width:150px; 
+            text-align:center; 
+    
+            white-space:nowrap; 
+            border:2px solid #222;
+            padding:5px 11px 3px 11px;
+            
+        }
+        .title:before, .title:after {
+            background-color: #c50000;
+            position:absolute; 
+            content: '';
+            height: 7px;
+
+            width: 7px; border-radius:50%;
+            bottom: 12px;
+            
+        }
+        .title:before {
+            left:-20px;
+        }
+        .title:after {
+            right:-20px;
+        }
+            
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="all">
+        <div class="left">
+            <div class="homeleft">
+            <div class="media">
+                <div class="cover object">
+                    <img class="contain" src="/meme-hot-1.jpg" alt="Paris" style="width: 150px; height: 150px">
+                </div>
+              </div>
+            <div class="name">
+                Lâm Chí Minh
+            </div>
+            <div class="small">
+                WEB DEVERLOPER
+            </div>
+            </div>
+            <div class="big">
+                CONTACT INFO
+            </div>
+            <div>
+                <div><i class="fa fa-phone"></i> 0902167882</div>
+              
+    
+            </div>
+            <div class="text-mail">
+                <i class="fas fa-store"></i> minhlamchuale@gmail.com
+            </div>
+            <div class="text-address">
+                <i class="fas fa-space-shuttle"></i> 1442 đường 3 tháng 2 phường 2 quận 11
+            </div>
+        </div>
+        <div class="right">
+            <div class="title">
+                PROFILE
+            </div>
+            <div class="frame">
+                <span>
+                    I am a fourth-year student at Saigon University majoring in Information Technology, specializing in Software Engineering.
+                </span></br>
+                <span>
+                    I always making effort and learning to achieve the best results.
+                </span></br>
+                <span>
+                    Passionate about technology, programming, ready to work with anyone and learn from anyone.
+                </span>
+            </div>
+            <div class="title">
+                EXPERIENCE
+            </div>
+            <div class="frame">
+                <div>
+                    <span>
+                        2020 - PRESENT
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        Frond-end Developer
+                        Saigon Uni/Ho Chi Minh City
+                    </span>
+                </div>
+            </div>
+            <div class="title">
+                SKILLS
+            </div>
+            <div class="frame"><div>
+                HTML
+            </div>
+            <div>
+                CSS
+            </div>
+            <div>
+                JAVASCIPT
+            </div>
+            <div>
+                PHP
+            </div></div>
+            <div class="title" >
+                INTEREST
+            </div>
+            <div class="frame">
+                <div>Gaming</div>
+                <div>Learn To Code</div>
+                <div>Reading</div>
+            </div>
+            
+            <div class="title">
+                EDUCATION
+            </div>
+            <div class="frame">
+                2020-2025 Saigon University
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
